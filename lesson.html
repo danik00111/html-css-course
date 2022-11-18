@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Back To Shadows</title>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="inset">Inset</div>
+      <div class="outset">Outset</div>
+    </div>
+    <div class="example">
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+      <br />
+      <p>
+        Sit et iste numquam, deleniti, omnis at magni, officiis similique ut ad
+        deserunt magnam qui beatae suscipit! Similique, quia nemo.
+      </p>
+    </div>
+  </body>
+</html>
+<style>
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .inset {
+    width: 400px;
+    height: 400px;
+    background: url(../FE/img/girl-with-pie.jpeg);
+    box-shadow: inset 10px 10px 10px 5px #79f2ab;
+    margin-right: 50px;
+  }
+  .outset {
+    width: 400px;
+    height: 400px;
+    background: url(../FE/img/1-by-1.png);
+    box-shadow: 10px 10px 10px 5px #c7f279;
+  }
+  .example {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto 150px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 3px #ff0080, 0px 10px 6px #2000ff,
+      0px 15px 12px 3px #008000, 0px 20px 24px 5px #ff40c0,
+      0px 30px 30px 10px #ffff40, 0px 50px 75px 35px #008080;
+  }
+</style>
